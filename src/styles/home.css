@@ -1,0 +1,88 @@
+
+/* Home/Intro Page */
+#home .part1 {
+    height: 100vh;
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .part2 {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    backdrop-filter: blur(3px);
+}
+
+.home-container h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 20px;
+}
+
+.home-container p {
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 40px;
+}
+
+.home-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+}
+
+.home-container .btn:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.home-left {
+    width: 50%;
+    text-align: center;
+}
+
+.home-left img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.home-right {
+    width: 50%;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.home-right h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.home-right p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}

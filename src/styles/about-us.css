@@ -1,0 +1,54 @@
+
+/* About Us */
+#about-us {
+    padding: 80px 0 30px 0;
+    background-color: white;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-stats,
+.about-achievements,
+.about-reviews {
+    width: 30%;
+    text-align: center;
+}
+
+.about-stats h2,
+.about-achievements h2,
+.about-reviews h2 {
+    margin-bottom: 40px;
+}
+
+.about-stats p,
+.about-achievements li,
+.about-reviews p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about-achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.customer-review {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
