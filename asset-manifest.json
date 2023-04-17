@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Books-Bazaar-React/static/css/main.6c5a0519.css",
+    "main.js": "/Books-Bazaar-React/static/js/main.427ba474.js",
+    "static/media/bg3.jpg": "/Books-Bazaar-React/static/media/bg3.919960e4adde6f8ee62b.jpg",
+    "static/media/bg4.jpg": "/Books-Bazaar-React/static/media/bg4.39e540f81e4aaafed809.jpg",
+    "static/media/bg2.jpg": "/Books-Bazaar-React/static/media/bg2.0343941234f19007ea2a.jpg",
+    "static/media/bg1.jpg": "/Books-Bazaar-React/static/media/bg1.2bc7f235f4eaa3e1412a.jpg",
+    "static/media/atomicHabits.jpg": "/Books-Bazaar-React/static/media/atomicHabits.45cafe5ce78e9d92bb38.jpg",
+    "static/media/hpps.jpg": "/Books-Bazaar-React/static/media/hpps.0c34af6f8f0c504ef989.jpg",
+    "static/media/alchemist.jpg": "/Books-Bazaar-React/static/media/alchemist.cf13347e594a2da2da86.jpg",
+    "static/media/logo.jpg": "/Books-Bazaar-React/static/media/logo.c553052c9c67046bb54a.jpg",
+    "static/media/rdpd.png": "/Books-Bazaar-React/static/media/rdpd.14d59b948b31daaae736.png",
+    "static/media/hobbit.jpg": "/Books-Bazaar-React/static/media/hobbit.fa6c955aef2e5f533823.jpg",
+    "static/media/tkam.jpg": "/Books-Bazaar-React/static/media/tkam.578b751a9b7a7ebdfb28.jpg",
+    "index.html": "/Books-Bazaar-React/index.html",
+    "main.6c5a0519.css.map": "/Books-Bazaar-React/static/css/main.6c5a0519.css.map",
+    "main.427ba474.js.map": "/Books-Bazaar-React/static/js/main.427ba474.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c5a0519.css",
+    "static/js/main.427ba474.js"
+  ]
+}
