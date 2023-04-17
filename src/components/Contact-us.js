@@ -1,21 +1,29 @@
 import React from 'react'
 import '../styles/contact-us.css'
+import location from '../images/location.png'
+import phone from '../images/phone.png'
+import mail from '../images/mail.png'
 
 export default function ContactUs() {
+
+// $(".contact-info").css("height", $(".contact-us-inputs-container").height() + "px");
+    // document.querySelector(".contact-info").style.height = document.querySelector(".contact-us-inputs-container").offsetHeight + "px";
+
+
     return (
         <section id="contact-us">
             <div className="contact-info">
                 <h2 className="section-header">Contact Me</h2>
                 <div className="location">
-                    <i className="fa-solid fa-map-marker-alt"></i>
+                    <img src={location} alt="location" />
                     BR Ambedkar Hall of Residence, IIT Kharagpur, West Bengal, India - 721302
                 </div>
                 <div className="phone">
-                    <i className="fa-solid fa-phone"></i>
+                    <img src={phone} alt="phone" />
                     7571053858
                 </div>
                 <div className="email">
-                    <i className="fa-solid fa-envelope"></i>
+                    <img src={mail} alt="mail" />
                     udayomsrivastava111@gmail.com
                 </div>
             </div>

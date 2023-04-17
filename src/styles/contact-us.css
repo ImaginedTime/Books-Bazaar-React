@@ -60,7 +60,7 @@
 
 .contact-info {
     position: absolute;
-    transform: translateX(-80%);
+    transform: translateX(-80%) translateY(-4%);
     background-color: #333;
     box-shadow: 0 0 5px #333;
     color: #edd;
@@ -76,7 +76,17 @@
     justify-content: space-between;
     gap: 30px;
     margin: 30px 0;
-    overflow: hidden;
+    height: 60px;
+    overflow: scroll;
+}
+
+.location::-webkit-scrollbar, .phone::-webkit-scrollbar, .email::-webkit-scrollbar {
+    display: none;
+}
+
+.contact-info  img {
+    width: 24px;
+    height: 24px;
 }
 
 .contact-info h2 {
@@ -89,4 +99,32 @@
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    #contact-us p {
+        width: 90%;
+    }
+
+    #contact-us {
+        width: 90%;
+        padding: 0;
+        background-color: #f2f2f2;
+        box-shadow: none;
+    }
+
+    .contact-us-inputs-container {
+        background-color: white;
+        padding: 40px 0;
+        box-shadow: 0 0 10px #999;
+    }
+
+    .contact-info {
+        transform: translateX(0%);
+        position: unset;
+        box-shadow: 0 0 10px #333;
+        width: 90%;
+        padding: 40px;
+        margin: 20px auto 40px auto;
+    }
 }

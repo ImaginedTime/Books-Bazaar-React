@@ -7,6 +7,19 @@ import bg4 from '../images/bg4.jpg'
 
 
 export default function BookCard({img, title, author, description}) {
+    function handleAddClick(e) {
+        let elem = e.target;
+        let content = elem.innerHTML;
+        if (content == "Add +") {
+            elem.innerText = "Added";
+            elem.style.backgroundColor = "#4f4";
+        }
+        else {
+            elem.innerText = "Add +";
+            elem.style.backgroundColor = "#333";
+        }
+    }
+
     return (
         <div className="book-card">
             <img src={img} alt="book 1" />
@@ -16,7 +29,7 @@ export default function BookCard({img, title, author, description}) {
 
             <div className="book-card-link-container">
                 <a href="#home" className="book-card-link">Learn More</a>
-                <a href=".book-card" className="book-card-link add-button">Add +</a>
+                <a className="book-card-link add-button" onClick = {e => handleAddClick(e)}>Add +</a>
             </div>
         </div>
     )

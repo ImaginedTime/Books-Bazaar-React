@@ -93,6 +93,7 @@
     text-decoration: none;
     margin: 20px;
     cursor: pointer;
+    user-select: none;
 }
 
 .section-header {
@@ -100,3 +101,23 @@
     font-size: 36px;
     margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+    #books {
+        padding: 20px 0;
+    }
+
+    #books p {
+        font-size: 16px;
+    }
+
+    .book-card {
+        width: 80%;
+        margin: 2% auto;
+    }
+
+    #books ul{
+        width: 90%;
+    }
+}
+
