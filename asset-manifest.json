@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Books-Bazaar-React/static/css/main.6c5a0519.css",
-    "main.js": "/Books-Bazaar-React/static/js/main.427ba474.js",
+    "main.css": "/Books-Bazaar-React/static/css/main.a7983ebb.css",
+    "main.js": "/Books-Bazaar-React/static/js/main.382126ec.js",
     "static/media/bg3.jpg": "/Books-Bazaar-React/static/media/bg3.919960e4adde6f8ee62b.jpg",
     "static/media/bg4.jpg": "/Books-Bazaar-React/static/media/bg4.39e540f81e4aaafed809.jpg",
     "static/media/bg2.jpg": "/Books-Bazaar-React/static/media/bg2.0343941234f19007ea2a.jpg",
@@ -13,12 +13,16 @@
     "static/media/rdpd.png": "/Books-Bazaar-React/static/media/rdpd.14d59b948b31daaae736.png",
     "static/media/hobbit.jpg": "/Books-Bazaar-React/static/media/hobbit.fa6c955aef2e5f533823.jpg",
     "static/media/tkam.jpg": "/Books-Bazaar-React/static/media/tkam.578b751a9b7a7ebdfb28.jpg",
+    "static/media/twitter.svg": "/Books-Bazaar-React/static/media/twitter.4d3c497518f671a78f72a2ecd98afeac.svg",
+    "static/media/instagram.svg": "/Books-Bazaar-React/static/media/instagram.abc22f413809af3e1422a74b8a083dbe.svg",
+    "static/media/facebook.svg": "/Books-Bazaar-React/static/media/facebook.c5ec442f6a8a413ee0c0944d293c8b9b.svg",
     "index.html": "/Books-Bazaar-React/index.html",
-    "main.6c5a0519.css.map": "/Books-Bazaar-React/static/css/main.6c5a0519.css.map",
-    "main.427ba474.js.map": "/Books-Bazaar-React/static/js/main.427ba474.js.map"
+    "static/media/angleUp.svg": "/Books-Bazaar-React/static/media/angleUp.860157aaf2d3bf4d89d87e30e9a71a1d.svg",
+    "main.a7983ebb.css.map": "/Books-Bazaar-React/static/css/main.a7983ebb.css.map",
+    "main.382126ec.js.map": "/Books-Bazaar-React/static/js/main.382126ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c5a0519.css",
-    "static/js/main.427ba474.js"
+    "static/css/main.a7983ebb.css",
+    "static/js/main.382126ec.js"
   ]
 }
